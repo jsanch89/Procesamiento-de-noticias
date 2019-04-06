@@ -1,2 +1,2 @@
 # Procesamiento-de-noticias
-Proyecto de big data para la materia tópicos de telemetica de la universidad Eafit 
+Proyecto de Big Data para la materia Tópicos Especiales en Telemática de la Universidad Eafit.
