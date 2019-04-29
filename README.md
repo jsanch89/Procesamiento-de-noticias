@@ -37,7 +37,6 @@ Se tiene un conjunto de noticias en texto libre, sobre el cual se desea realizar
 - TERCERA PARTE: Agrupamiento de noticias por similitud. Se recomienda usar la siguiente formula para determinar la similitud: <br/>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\mathscr{F}(news_i,&space;news_j)&space;=&space;\sum\limits_{w^{*}&space;\in&space;{news_i}^{(1&space;\cdots&space;10)}&space;\cap&space;{news_j}^{(1&space;\cdots&space;10)}}&space;(\mathbb{F}_{wi}&space;&plus;&space;\mathbb{F}_{wj})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathscr{F}(news_i,&space;news_j)&space;=&space;\sum\limits_{w^{*}&space;\in&space;{news_i}^{(1&space;\cdots&space;10)}&space;\cap&space;{news_j}^{(1&space;\cdots&space;10)}}&space;(\mathbb{F}_{wi}&space;&plus;&space;\mathbb{F}_{wj})" title="\mathscr{F}(news_i, news_j) = \sum\limits_{w^{*} \in {news_i}^{(1 \cdots 10)} \cap {news_j}^{(1 \cdots 10)}} e\mathbb{F}_{wi} + \mathbb{F}_{wj})" /></a>
 
-
 ## Etapa 2: Data Understanding
 
 En esta etapa se leyó el dataset en un data frame. Posteriormente se analizaron las columnas, es decir, sus tipos de datos y cuales eran las columnas útiles para nuestro caso (id, title, content). También se verificó la cantidad total de noticias y si habían campos nulos en el dataset.
