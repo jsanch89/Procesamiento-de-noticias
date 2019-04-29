@@ -19,8 +19,10 @@ Quizás el procesamiento más sencillo de todos, sea el wordcount, el cual consi
 determinar la frecuencia de la palabra por documento o por todo el dataset.
 ### Problema
 Se tiene un conjunto de noticias en texto libre, sobre el cual se desea realizar:
-- PRIMERA PARTE: PREPARACIÓN DE DATOS. LAS NOTICIAS DEBEN SER PRE-PROCESADAS PARA PREPARAR LOS DATOS PARA LA
-ANALITICA, DENTRO DE LAS SUGERENCIAS DE PREPARACIÓN ESTÁN:
+- PRIMERA PARTE: Preparación de Datos. Las noticias deben ser pre-procesadas para preparar los datos para la analítica, dentro de las sugerencias de preparación están:
   - Remover caracteres especiales (. , % ( ) ‘ “ ….
   - Remover stop-words
   - Remover palabras de longitud 1
+- SEGUNDA PARTE: Un buscador sencillo basado en el índice invertido.
+- TERCERA PARTE: Agrupamiento de noticias por similitud. Se recomienda usar la siguiente formula para determinar la similitud:
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mathscr{F}(news_i,&space;news_j)&space;=&space;\sum\limits_{w^{*}&space;\in&space;{news_i}^{(1&space;\cdots&space;10)}&space;\cap&space;{news_j}^{(1&space;\cdots&space;10)}}&space;(\mathbb{F}_{wi}&space;&plus;&space;\mathbb{F}_{wj})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathscr{F}(news_i,&space;news_j)&space;=&space;\sum\limits_{w^{*}&space;\in&space;{news_i}^{(1&space;\cdots&space;10)}&space;\cap&space;{news_j}^{(1&space;\cdots&space;10)}}&space;(\mathbb{F}_{wi}&space;&plus;&space;\mathbb{F}_{wj})" title="\mathscr{F}(news_i, news_j) = \sum\limits_{w^{*} \in {news_i}^{(1 \cdots 10)} \cap {news_j}^{(1 \cdots 10)}} (\mathbb{F}_{wi} + \mathbb{F}_{wj})" /></a>
