@@ -19,9 +19,8 @@ Quizás el procesamiento más sencillo de todos, sea el wordcount, el cual consi
 determinar la frecuencia de la palabra por documento o por todo el dataset.
 ### Problema
 Se tiene un conjunto de noticias en texto libre, sobre el cual se desea realizar:
-PRIMERA PARTE: PREPARACIÓN DE DATOS
-LAS NOTICIAS DEBEN SER PRE-PROCESADAS PARA PREPARAR LOS DATOS PARA LA
+- PRIMERA PARTE: PREPARACIÓN DE DATOS. LAS NOTICIAS DEBEN SER PRE-PROCESADAS PARA PREPARAR LOS DATOS PARA LA
 ANALITICA, DENTRO DE LAS SUGERENCIAS DE PREPARACIÓN ESTÁN:
-- Remover caracteres especiales (. , % ( ) ‘ “ ….
-- Remover stop-words
-- Remover palabras de longitud 1
+  - Remover caracteres especiales (. , % ( ) ‘ “ ….
+  - Remover stop-words
+  - Remover palabras de longitud 1
