@@ -33,5 +33,20 @@ Para resolver el problema en cuestión, se adoptó la metodología CRISP-DM que 
 
 ## Solución del Problema
 ### Data Cleaning
+En esta etapa de pre-procesamiento de datos se usaron las librerias y/o módulos:
+- NLTK (https://www.nltk.org/)
+- Sets (https://docs.python.org/2/library/sets.html)
+- Stop Words (https://www.nltk.org/book/ch02.html)
 ### Inverted Index
+En esta etapa de modelamiento se usaron las siguientes librerias y/o módulos:
+- PySpark (https://spark.apache.org/docs/0.9.0/python-programming-guide.html)
+- RDDs (https://spark.apache.org/docs/latest/rdd-programming-guide.html)
+- DataFrames (https://spark.apache.org/docs/latest/sql-programming-guide.html)
+- Sets (https://docs.python.org/2/library/sets.html)
+### Visualization
+En esta etapa de despliegue y finalización se usaron las siguientes librerias y/o módulos:
+- Plotly (https://plot.ly/)
+- Matplotlib (https://matplotlib.org/)
+- WordCloud (https://github.com/amueller/word_cloud)
 ### Similarity Analysis
+
