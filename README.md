@@ -34,7 +34,7 @@ Para resolver el problema en cuestión, se adoptó la metodología CRISP-DM que 
 ## Solución del Problema
 ### DataBricks
 En el siguiente link se puede encontrar la solución al problema:
-- Solucion: https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8473593282024510/4263140825395790/6592235585723091/latest.html
+- Solucion: https://databricks-prod cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8473593282024510/4263140825395790/6592235585723091/latest.html
 ### Data Cleaning
 En esta etapa de pre-procesamiento de datos se usaron las librerias y/o módulos:
 - NLTK (https://www.nltk.org/)
