@@ -30,3 +30,8 @@ Se tiene un conjunto de noticias en texto libre, sobre el cual se desea realizar
 ## Metodología CRISP-DM
 Para resolver el problema en cuestión, se adoptó la metodología CRISP-DM que bien se resume en la siguiente figura:
 ![alt text](crisp-dm-4-problems-fig1.png)
+
+## Solución del Problema
+### Data Cleaning
+### Inverted Index
+### Similarity Analysis
