@@ -28,4 +28,4 @@ Se tiene un conjunto de noticias en texto libre, sobre el cual se desea realizar
 <a href="https://www.codecogs.com/eqnedit.php?latex=\mathscr{F}(news_i,&space;news_j)&space;=&space;\sum\limits_{w^{*}&space;\in&space;{news_i}^{(1&space;\cdots&space;10)}&space;\cap&space;{news_j}^{(1&space;\cdots&space;10)}}&space;(\mathbb{F}_{wi}&space;&plus;&space;\mathbb{F}_{wj})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathscr{F}(news_i,&space;news_j)&space;=&space;\sum\limits_{w^{*}&space;\in&space;{news_i}^{(1&space;\cdots&space;10)}&space;\cap&space;{news_j}^{(1&space;\cdots&space;10)}}&space;(\mathbb{F}_{wi}&space;&plus;&space;\mathbb{F}_{wj})" title="\mathscr{F}(news_i, news_j) = \sum\limits_{w^{*} \in {news_i}^{(1 \cdots 10)} \cap {news_j}^{(1 \cdots 10)}} e\mathbb{F}_{wi} + \mathbb{F}_{wj})" /></a>
 ## Metodología CRISP-DM
 Para resolver el problema en cuestión, se adoptó la metodología CRISP-DM que bien se resume en la siguiente figura:
-
+![alt text](crisp-dm-4-problems-fig1.png)
