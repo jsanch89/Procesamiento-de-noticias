@@ -71,7 +71,6 @@ En esta etapa de modelamiento se usaron las siguientes librerias y/o módulos:
 ### DataBricks
 En el siguiente link se puede encontrar la solución al problema:
 - Solucion: https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8473593282024510/4263140825395790/6592235585723091/latest.html
-
 ### Visualization
 En esta etapa de despliegue y finalización se usaron las siguientes librerias y/o módulos:
 - Plotly (https://plot.ly/)
