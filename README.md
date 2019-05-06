@@ -63,6 +63,7 @@ En esta etapa de modelamiento se usaron las siguientes librerias y/o módulos:
 - RDDs (https://spark.apache.org/docs/latest/rdd-programming-guide.html)
 - DataFrames (https://spark.apache.org/docs/latest/sql-programming-guide.html)
 - Sets (https://docs.python.org/2/library/sets.html)
+<br/>
 Siendo así, los procesos que se llevaron fue los siguientes:
 - Tomar los csvs y verlos como uno solo. A cada fila del csv se le asigna un identificador entero creciente.
 - Por cada fila del csv completo, se extraen todas las palabras de la misma.
